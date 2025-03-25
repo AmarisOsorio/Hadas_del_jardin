@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Input from './components/Input/Input'
 import Button from './components/Button/Button'
+import List from './components/List/List'
 
 
 function App() {
@@ -11,22 +12,7 @@ function App() {
 
   return (
     <>
-    <div className='Container'>
-      <h1>Registro de Estudiantes</h1>
-
-      <Input 
-        Dato="Nombre: "
-      />
-      <Input 
-        Dato="Edad: "
-      />
-      <Input 
-        Dato="Carnet: "
-      />
-      <br />
-      <br />
-      <Button />
-    </div>
+    <List />
 
     
       
